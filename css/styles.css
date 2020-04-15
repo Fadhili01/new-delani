@@ -126,3 +126,27 @@ body, html {
 #giraffe:hover .hover {
     opacity: 1;
 }
+#contact {
+    background-image: url("../assets/contact_us.jpg");
+    height: 100%;
+    background-color: deepskyblue;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.contact-content {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -0%);
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+#name, #email, #message {
+    background: transparent;
+}
+::placeholder {
+    color: white;
+}
