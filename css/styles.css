@@ -150,3 +150,10 @@ body, html {
 ::placeholder {
     color: white;
 }
+#icons {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
